@@ -20,51 +20,45 @@
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Large Button'" [iconPos]="'right'" [icon]="'rightarrow'" (click)="action()"></lib-buttons>
+    <lib-buttons [text]="'Large Button'" [iconPos]="'right'" (click)="action()"></lib-buttons>
 </div>
 <p>Prueba de un boton grande primario de texto, en estado default, con icono en la parte derecha</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Large Button'"  [iconPos]="'left'" [icon]="'download'" (click)="action()"></lib-buttons>
+    <lib-buttons [text]="'Large Button'"  [iconPos]="'left'" (click)="action()"></lib-buttons>
 </div>
 <p>Prueba de un boton grande primario de texto, en estado default, con icono en la parte izquierda</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Medium Button'" [iconPos]="'right'" [size]="'medium'" [icon]="'rightarrow'" (click)="action()"></lib-buttons>
+    <lib-buttons [text]="'Medium Button'" [iconPos]="'right'" [size]="'medium'" (click)="action()"></lib-buttons>
 </div>
 <p>Prueba de un boton mediano primario de texto, en estado default, con icono en la parte derecha</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Medium Button'" [iconPos]="'left'" [size]="'medium'" [icon]="'download'" (click)="action()"></lib-buttons>
+    <lib-buttons [text]="'Medium Button'" [iconPos]="'left'" [size]="'medium'" (click)="action()"></lib-buttons>
 </div>
 <p>Prueba de un boton mediano primario de texto, en estado default, con icono en la parte izquierda</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Small Button'" [iconPos]="'right'" [size]="'small'" [icon]="'rightarrow'" (click)="action()"></lib-buttons>
+    <lib-buttons [text]="'Small Button'" [iconPos]="'right'" [size]="'small'" (click)="action()"></lib-buttons>
 </div>
 <p>Prueba de un boton pequeño primario de texto, en estado default, con icono en la parte derecha</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Small Button'" [iconPos]="'left'" [size]="'small'" [icon]="'download'" (click)="action()"></lib-buttons>
+    <lib-buttons [text]="'Small Button'" [iconPos]="'left'" [size]="'small'" (click)="action()"></lib-buttons>
 </div>
 <p>Prueba de un boton pequeño primario de texto, en estado default, con icono en la parte izquierda</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Custom Icon'" [iconPos]="'right'" [size]="'small'" (click)="action()" [customIcon]="'../assets/test.png'"></lib-buttons>
+    <lib-buttons [text]="'Custom Icon'" [iconPos]="'left'" [size]="'small'" (click)="action()" [customIcon]="'./src/assets/test.png'"></lib-buttons>
 </div>
-<p>Prueba de un boton pequeño primario, en estado default, con icono personalizado en la parte derecha</p>
-<hr>
-
-<div style="width: fit-content;">
-    <lib-buttons [text]="'Custom Icon'" [iconPos]="'left'" [size]="'small'" (click)="action()" [customIcon]="'../assets/test.png'"></lib-buttons>
-</div>
-<p>Prueba de un boton pequeño primario, en estado default, con icono personalizado en la parte izquierda</p>
+<p>Prueba de un boton pequeño primario de texto, en estado default, con icono en la parte izquierda</p>
 <hr>
 
 <h2>Disabled</h2>
@@ -88,37 +82,37 @@
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Large Button'" [icon]="'rightarrow'" [iconPos]="'right'" [disabled]="true"></lib-buttons>
+    <lib-buttons [text]="'Large Button'" [iconPos]="'right'" [disabled]="true"></lib-buttons>
 </div>
 <p>Prueba de un boton grande primario de texto, en estado disabled, con icono en la parte derecha</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Large Button'" [icon]="'download'" [iconPos]="'left'" [disabled]="true"></lib-buttons>
+    <lib-buttons [text]="'Large Button'" [iconPos]="'left'" [disabled]="true"></lib-buttons>
 </div>
 <p>Prueba de un boton grande primario de texto, en estado disabled, con icono en la parte izquierda</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Medium Button'" [icon]="'rightarrow'" [iconPos]="'right'" [size]="'medium'" [disabled]="true"></lib-buttons>
+    <lib-buttons [text]="'Medium Button'" [iconPos]="'right'" [size]="'medium'" [disabled]="true"></lib-buttons>
 </div>
 <p>Prueba de un boton mediano primario de texto, en estado disabled, con icono en la parte derecha</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Medium Button'" [icon]="'download'" [iconPos]="'left'" [size]="'medium'" [disabled]="true"></lib-buttons>
+    <lib-buttons [text]="'Medium Button'" [iconPos]="'left'" [size]="'medium'" [disabled]="true"></lib-buttons>
 </div>
 <p>Prueba de un boton mediano primario de texto, en estado disabled, con icono en la parte izquierda</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Small Button'" [icon]="'rightarrow'" [iconPos]="'right'" [size]="'small'" [disabled]="true"></lib-buttons>
+    <lib-buttons [text]="'Small Button'" [iconPos]="'right'" [size]="'small'" [disabled]="true"></lib-buttons>
 </div>
 <p>Prueba de un boton pequeño primario de texto, en estado disabled, con icono en la parte derecha</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Small Button'" [icon]="'download'" [iconPos]="'left'" [size]="'small'" [disabled]="true"></lib-buttons>
+    <lib-buttons [text]="'Small Button'" [iconPos]="'left'" [size]="'small'" [disabled]="true"></lib-buttons>
 </div>
 <p>Prueba de un boton pequeño primario de texto, en estado disabled, con icono en la parte izquierda</p>
 <hr>
@@ -146,37 +140,37 @@
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Large Button'" [icon]="'rightarrow'" [iconPos]="'right'" [group]="2" (click)="action()"></lib-buttons>
+    <lib-buttons [text]="'Large Button'" [iconPos]="'right'" [group]="2" (click)="action()"></lib-buttons>
 </div>
 <p>Prueba de un boton grande secundario de texto, en estado default, con icono en la parte derecha</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Large Button'" [icon]="'download'" [iconPos]="'left'" [group]="2" (click)="action()"></lib-buttons>
+    <lib-buttons [text]="'Large Button'" [iconPos]="'left'" [group]="2" (click)="action()"></lib-buttons>
 </div>
 <p>Prueba de un boton grande secundario de texto, en estado default, con icono en la parte izquierda</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Medium Button'" [icon]="'rightarrow'" [iconPos]="'right'" [size]="'medium'" [group]="2" (click)="action()"></lib-buttons>
+    <lib-buttons [text]="'Medium Button'" [iconPos]="'right'" [size]="'medium'" [group]="2" (click)="action()"></lib-buttons>
 </div>
 <p>Prueba de un boton mediano secundario de texto, en estado default, con icono en la parte derecha</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Medium Button'" [icon]="'download'" [iconPos]="'left'" [size]="'medium'" [group]="2" (click)="action()"></lib-buttons>
+    <lib-buttons [text]="'Medium Button'" [iconPos]="'left'" [size]="'medium'" [group]="2" (click)="action()"></lib-buttons>
 </div>
 <p>Prueba de un boton mediano secundario de texto, en estado default, con icono en la parte izquierda</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Small Button'" [icon]="'rightarrow'" [iconPos]="'right'" [size]="'small'" [group]="2" (click)="action()"></lib-buttons>
+    <lib-buttons [text]="'Small Button'" [iconPos]="'right'" [size]="'small'" [group]="2" (click)="action()"></lib-buttons>
 </div>
 <p>Prueba de un boton pequeño secundario de texto, en estado default, con icono en la parte derecha</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Small Button'" [icon]="'download'" [iconPos]="'left'" [size]="'small'" [group]="2" (click)="action()"></lib-buttons>
+    <lib-buttons [text]="'Small Button'" [iconPos]="'left'" [size]="'small'" [group]="2" (click)="action()"></lib-buttons>
 </div>
 <p>Prueba de un boton pequeño secundario de texto, en estado default, con icono en la parte izquierda</p>
 <hr>
@@ -202,37 +196,37 @@
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Large Button'" [icon]="'rightarrow'" [iconPos]="'right'" [disabled]="true" [group]="2"></lib-buttons>
+    <lib-buttons [text]="'Large Button'" [iconPos]="'right'" [disabled]="true" [group]="2"></lib-buttons>
 </div>
 <p>Prueba de un boton grande secundario de texto, en estado disabled, con icono en la parte derecha</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Large Button'" [icon]="'download'" [iconPos]="'left'" [disabled]="true" [group]="2"></lib-buttons>
+    <lib-buttons [text]="'Large Button'" [iconPos]="'left'" [disabled]="true" [group]="2"></lib-buttons>
 </div>
 <p>Prueba de un boton grande secundario de texto, en estado disabled, con icono en la parte izquierda</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Medium Button'" [icon]="'rightarrow'" [iconPos]="'right'" [size]="'medium'" [disabled]="true" [group]="2"></lib-buttons>
+    <lib-buttons [text]="'Medium Button'" [iconPos]="'right'" [size]="'medium'" [disabled]="true" [group]="2"></lib-buttons>
 </div>
 <p>Prueba de un boton mediano secundario de texto, en estado disabled, con icono en la parte derecha</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Medium Button'" [icon]="'download'" [iconPos]="'left'" [size]="'medium'" [disabled]="true" [group]="2"></lib-buttons>
+    <lib-buttons [text]="'Medium Button'" [iconPos]="'left'" [size]="'medium'" [disabled]="true" [group]="2"></lib-buttons>
 </div>
 <p>Prueba de un boton mediano secundario de texto, en estado disabled, con icono en la parte izquierda</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Small Button'" [icon]="'rightarrow'" [iconPos]="'right'" [size]="'small'" [disabled]="true" [group]="2"></lib-buttons>
+    <lib-buttons [text]="'Small Button'" [iconPos]="'right'" [size]="'small'" [disabled]="true" [group]="2"></lib-buttons>
 </div>
 <p>Prueba de un boton pequeño secundario de texto, en estado disabled, con icono en la parte derecha</p>
 <hr>
 
 <div style="width: fit-content;">
-    <lib-buttons [text]="'Small Button'" [icon]="'download'" [iconPos]="'left'" [size]="'small'" [disabled]="true" [group]="2"></lib-buttons>
+    <lib-buttons [text]="'Small Button'" [iconPos]="'left'" [size]="'small'" [disabled]="true" [group]="2"></lib-buttons>
 </div>
 <p>Prueba de un boton pequeño secundario de texto, en estado disabled, con icono en la parte izquierda</p>
 <hr>
