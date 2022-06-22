@@ -1,27 +1,60 @@
 # ButtonsLib
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+Download and import in your project root using the command `npm install <file-route>`  
+Add to imports in app.module.ts or corresponding module.  
+  
+Source code can be found in [projects/buttons/src/lib](https://github.com/Batman-exe/ButtonsLib/tree/master/projects/buttons/src/lib)
+  
+  
+## Use
+  
+You can call the library in this way: 
+ 
+![use of lib](/src/assets/use.png?raw=true "")
+ 
+The lib-buttons container take full width of its container, therefore the div tag with the property fit content is neccesary to ensure proper operation of `(click)` 
+ 
+##Inputs
 
-## Development server
+##### group 
+`number` used to select the buttons group, must be between `1` and `4` (4 represents the group others from figma).    
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+##### text
+`string` used to enter the button text (text not available in group 4). 
+  
+##### disabled
+`boolean` used to disable the button, true indicates that the button is disabled, false by default. (not available in group 4)
 
-## Code scaffolding
+##### icon
+`string` used to select the icon to use in the button, if empty it won't display an icon. 
+These are the allowed values (if not specified just available in groups 1 to 3): 
+<ul>
+  <li>download</li>
+  <li>upload</li>
+  <li>rightarrow</li>
+  <li>leftarrow</li>
+  <li>search</li>
+  <li>save</li>
+  <li>eye</li>
+  <li>create</li>
+  <li>briefcase</li>
+  <li>add (can be used in all groups)</li>
+  <li>remove (just available in group 4)</li>
+  <li>yes (just available in group 4)</li>
+  <li>no (just available in group 4)</li>
+</ul>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##### iconPos
+`string` used to indicate the position of the icon according to text, possible values are `left`or `right` (availeible in groups 1 and 2). 
 
-## Build
+##### customIcon
+`string` used to insert a custom image as icon, it is recommended to use png images, the value of customIcon must be the path to the image. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+##### size
+`string` used to select the size of the button, values allowed `large`, `medium`, `small`. 
+ 
+  
+   
+    
+    
+Samples can be found in [src/app/app.component.html](https://github.com/Batman-exe/ButtonsLib/blob/master/src/app/app.component.html)
