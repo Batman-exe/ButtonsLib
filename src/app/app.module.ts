@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ButtonsModule } from 'projects/buttons/src/public-api';
+import { ButtonsModule } from 'buttons';
 
 import { AppComponent } from './app.component';
 
