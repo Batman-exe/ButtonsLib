@@ -26,7 +26,7 @@ The lib-buttons container take full width of its container, therefore the div ta
 `boolean` used to disable the button, true indicates that the button is disabled, false by default. (not available in group 4)
 
 ##### icon
-`string` used to select the icon to use in the button, if empty it won't display an icon. 
+`string` used to select the icon to use in the button, if empty it won't display an icon. icon is not case sensitive.  
 These are the allowed values (if not specified just available in groups 1 to 3): 
 <ul>
   <li>download</li>
@@ -43,6 +43,8 @@ These are the allowed values (if not specified just available in groups 1 to 3):
   <li>yes (just available in group 4)</li>
   <li>no (just available in group 4)</li>
 </ul>
+
+![iconos](https://github.com/Batman-exe/ButtonsLib/blob/master/src/assets/icons.png)
 
 ##### iconPos
 `string` used to indicate the position of the icon according to text, possible values are `left`or `right` (availeible in groups 1 and 2). 
