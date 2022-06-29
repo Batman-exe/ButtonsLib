@@ -76,10 +76,5 @@ export class ButtonsComponent implements OnInit {
     else
       console.error("Group value in buttons must be between 1 and 4");
   }
-
-  onClick() {
-    console.log("click");
-    console.log(this.icon)
-  }
-
+  
 }
