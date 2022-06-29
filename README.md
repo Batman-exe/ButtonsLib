@@ -1,6 +1,6 @@
 # ButtonsLib
 
-Download and import in your project root using the command `npm install <file-route>`  
+Download .tgz file from the last release and import in your project root using the command `npm install <file-route>`  
 Add to imports in app.module.ts or corresponding module.  
   
 Source code can be found in [projects/buttons/src/lib](https://github.com/Batman-exe/ButtonsLib/tree/master/projects/buttons/src/lib)
